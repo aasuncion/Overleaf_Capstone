@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\title{Recommendation System Model Based on Yelp Reviews}
+\date{2018-5-5}
+\author{Albert Asuncion, Peter Kouvaris, Ekaterina Pirogova, Arun Rajagopal, Hari Narayan Sanadhya}
+
+\begin{document}
+\maketitle
+\pagenumbering{gobble}
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+Yelp was founded in 2004 with the objective to help people find great local businesses like dentists, hair stylists, and mechanics. The company's primary product is a web application available on desktop and mobile devices that allows users to post and review information on retail establishments AND??. The company's product gathers reviews from its users (Yelpers), weighting a user's input and averaging the ratings into a 5-star average for a business. The product also leverages a recommendation system, that weights reviews, returning subsets of businesses given a user query that match the query and are likely to be rated highly by the user making the query. 
+
+\subsection{How technology enabled this shift}
+Within the Yelp data set, user utility manifests as recommending businesses that are similar to those that a use has rated highly. These measures can be filtered using mathematical methods like minimization of RMSE (root mean squared error) and MAE (mean absolute error) and less mathematical methods like recall and coverage. We use these methods and more throughout the course of this paper, analyzing the effectiveness of an algorithm on multiple dimensions. While RMSE and MAE are mathematically rigorous, and therefore yield strong units to units comparison for model performance, comparisons on this level are only broadly applicable to data sets that do not have users who have rated a majority of the item population. Alternative methods are strong, and as a result complimentary, for the opposite reasons. More intuitive metrics that require reasoning are helpful in defining the broader usefulness of a method and are included in our analysis. 
+
+\end{document}
